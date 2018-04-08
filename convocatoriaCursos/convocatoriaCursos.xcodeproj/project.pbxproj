@@ -1,0 +1,784 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		55CF0FF503345B77CB08C073 /* Pods_convocatoriaCursos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C5A3D1A14619F7D3CDD9905 /* Pods_convocatoriaCursos.framework */; };
+		84B75295206C094100C44CFA /* ViewControllerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B75294206C094100C44CFA /* ViewControllerTableViewCell.swift */; };
+		84B75297206C0AC500C44CFA /* ConvocatoriaCursoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B75296206C0AC500C44CFA /* ConvocatoriaCursoModel.swift */; };
+		84F0EE99206BDC3F0060589D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F0EE98206BDC3F0060589D /* AppDelegate.swift */; };
+		84F0EE9B206BDC3F0060589D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F0EE9A206BDC3F0060589D /* ViewController.swift */; };
+		84F0EE9E206BDC3F0060589D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84F0EE9C206BDC3F0060589D /* Main.storyboard */; };
+		84F0EEA0206BDC3F0060589D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84F0EE9F206BDC3F0060589D /* Assets.xcassets */; };
+		84F0EEA3206BDC3F0060589D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84F0EEA1206BDC3F0060589D /* LaunchScreen.storyboard */; };
+		84F0EEAE206BDC3F0060589D /* convocatoriaCursosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F0EEAD206BDC3F0060589D /* convocatoriaCursosTests.swift */; };
+		84F0EEB9206BDC3F0060589D /* convocatoriaCursosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F0EEB8206BDC3F0060589D /* convocatoriaCursosUITests.swift */; };
+		84F0EEC7206BDC810060589D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 84F0EEC6206BDC810060589D /* GoogleService-Info.plist */; };
+		CD162D46D8E3B402B595C168 /* Pods_convocatoriaCursosUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41F337976BB693FB22203399 /* Pods_convocatoriaCursosUITests.framework */; };
+		FACD0F68FA9195CEF94A4E45 /* Pods_convocatoriaCursosTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7672D266F4FF01479E43FAF /* Pods_convocatoriaCursosTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84F0EEAA206BDC3F0060589D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84F0EE8D206BDC3F0060589D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84F0EE94206BDC3F0060589D;
+			remoteInfo = convocatoriaCursos;
+		};
+		84F0EEB5206BDC3F0060589D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84F0EE8D206BDC3F0060589D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84F0EE94206BDC3F0060589D;
+			remoteInfo = convocatoriaCursos;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		41F337976BB693FB22203399 /* Pods_convocatoriaCursosUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_convocatoriaCursosUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C5A3D1A14619F7D3CDD9905 /* Pods_convocatoriaCursos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_convocatoriaCursos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B553D416EACC7EBF93596EB /* Pods-convocatoriaCursosUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-convocatoriaCursosUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-convocatoriaCursosUITests/Pods-convocatoriaCursosUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		838D437FB84DCC3A1D6FA194 /* Pods-convocatoriaCursosTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-convocatoriaCursosTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-convocatoriaCursosTests/Pods-convocatoriaCursosTests.release.xcconfig"; sourceTree = "<group>"; };
+		84B75294206C094100C44CFA /* ViewControllerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTableViewCell.swift; sourceTree = "<group>"; };
+		84B75296206C0AC500C44CFA /* ConvocatoriaCursoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvocatoriaCursoModel.swift; sourceTree = "<group>"; };
+		84F0EE95206BDC3F0060589D /* convocatoriaCursos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = convocatoriaCursos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84F0EE98206BDC3F0060589D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84F0EE9A206BDC3F0060589D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		84F0EE9D206BDC3F0060589D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84F0EE9F206BDC3F0060589D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84F0EEA2206BDC3F0060589D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84F0EEA4206BDC3F0060589D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84F0EEA9206BDC3F0060589D /* convocatoriaCursosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = convocatoriaCursosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84F0EEAD206BDC3F0060589D /* convocatoriaCursosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = convocatoriaCursosTests.swift; sourceTree = "<group>"; };
+		84F0EEAF206BDC3F0060589D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84F0EEB4206BDC3F0060589D /* convocatoriaCursosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = convocatoriaCursosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84F0EEB8206BDC3F0060589D /* convocatoriaCursosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = convocatoriaCursosUITests.swift; sourceTree = "<group>"; };
+		84F0EEBA206BDC3F0060589D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84F0EEC6206BDC810060589D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		91C83A27B62244A0CD262E8E /* Pods-convocatoriaCursosTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-convocatoriaCursosTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-convocatoriaCursosTests/Pods-convocatoriaCursosTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BDBCBA5F6D54A49B5C10667B /* Pods-convocatoriaCursos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-convocatoriaCursos.debug.xcconfig"; path = "Pods/Target Support Files/Pods-convocatoriaCursos/Pods-convocatoriaCursos.debug.xcconfig"; sourceTree = "<group>"; };
+		D7672D266F4FF01479E43FAF /* Pods_convocatoriaCursosTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_convocatoriaCursosTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC3E6FCA9BDF4129D9FF0625 /* Pods-convocatoriaCursosUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-convocatoriaCursosUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-convocatoriaCursosUITests/Pods-convocatoriaCursosUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F96BB96A1CB8A28323720A48 /* Pods-convocatoriaCursos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-convocatoriaCursos.release.xcconfig"; path = "Pods/Target Support Files/Pods-convocatoriaCursos/Pods-convocatoriaCursos.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84F0EE92206BDC3F0060589D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55CF0FF503345B77CB08C073 /* Pods_convocatoriaCursos.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84F0EEA6206BDC3F0060589D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FACD0F68FA9195CEF94A4E45 /* Pods_convocatoriaCursosTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84F0EEB1206BDC3F0060589D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD162D46D8E3B402B595C168 /* Pods_convocatoriaCursosUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		81C3447958DB243FEC4112B3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5C5A3D1A14619F7D3CDD9905 /* Pods_convocatoriaCursos.framework */,
+				D7672D266F4FF01479E43FAF /* Pods_convocatoriaCursosTests.framework */,
+				41F337976BB693FB22203399 /* Pods_convocatoriaCursosUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84F0EE8C206BDC3F0060589D = {
+			isa = PBXGroup;
+			children = (
+				84F0EE97206BDC3F0060589D /* convocatoriaCursos */,
+				84F0EEAC206BDC3F0060589D /* convocatoriaCursosTests */,
+				84F0EEB7206BDC3F0060589D /* convocatoriaCursosUITests */,
+				84F0EE96206BDC3F0060589D /* Products */,
+				9FD9BA2180FD8348E5FCD2A6 /* Pods */,
+				81C3447958DB243FEC4112B3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		84F0EE96206BDC3F0060589D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84F0EE95206BDC3F0060589D /* convocatoriaCursos.app */,
+				84F0EEA9206BDC3F0060589D /* convocatoriaCursosTests.xctest */,
+				84F0EEB4206BDC3F0060589D /* convocatoriaCursosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84F0EE97206BDC3F0060589D /* convocatoriaCursos */ = {
+			isa = PBXGroup;
+			children = (
+				84F0EE98206BDC3F0060589D /* AppDelegate.swift */,
+				84F0EEC6206BDC810060589D /* GoogleService-Info.plist */,
+				84F0EE9A206BDC3F0060589D /* ViewController.swift */,
+				84F0EE9C206BDC3F0060589D /* Main.storyboard */,
+				84B75296206C0AC500C44CFA /* ConvocatoriaCursoModel.swift */,
+				84B75294206C094100C44CFA /* ViewControllerTableViewCell.swift */,
+				84F0EE9F206BDC3F0060589D /* Assets.xcassets */,
+				84F0EEA1206BDC3F0060589D /* LaunchScreen.storyboard */,
+				84F0EEA4206BDC3F0060589D /* Info.plist */,
+			);
+			path = convocatoriaCursos;
+			sourceTree = "<group>";
+		};
+		84F0EEAC206BDC3F0060589D /* convocatoriaCursosTests */ = {
+			isa = PBXGroup;
+			children = (
+				84F0EEAD206BDC3F0060589D /* convocatoriaCursosTests.swift */,
+				84F0EEAF206BDC3F0060589D /* Info.plist */,
+			);
+			path = convocatoriaCursosTests;
+			sourceTree = "<group>";
+		};
+		84F0EEB7206BDC3F0060589D /* convocatoriaCursosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				84F0EEB8206BDC3F0060589D /* convocatoriaCursosUITests.swift */,
+				84F0EEBA206BDC3F0060589D /* Info.plist */,
+			);
+			path = convocatoriaCursosUITests;
+			sourceTree = "<group>";
+		};
+		9FD9BA2180FD8348E5FCD2A6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BDBCBA5F6D54A49B5C10667B /* Pods-convocatoriaCursos.debug.xcconfig */,
+				F96BB96A1CB8A28323720A48 /* Pods-convocatoriaCursos.release.xcconfig */,
+				91C83A27B62244A0CD262E8E /* Pods-convocatoriaCursosTests.debug.xcconfig */,
+				838D437FB84DCC3A1D6FA194 /* Pods-convocatoriaCursosTests.release.xcconfig */,
+				7B553D416EACC7EBF93596EB /* Pods-convocatoriaCursosUITests.debug.xcconfig */,
+				EC3E6FCA9BDF4129D9FF0625 /* Pods-convocatoriaCursosUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84F0EE94206BDC3F0060589D /* convocatoriaCursos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84F0EEBD206BDC3F0060589D /* Build configuration list for PBXNativeTarget "convocatoriaCursos" */;
+			buildPhases = (
+				FC0628BC9980B061D0070455 /* [CP] Check Pods Manifest.lock */,
+				84F0EE91206BDC3F0060589D /* Sources */,
+				84F0EE92206BDC3F0060589D /* Frameworks */,
+				84F0EE93206BDC3F0060589D /* Resources */,
+				FDEB8429BC611A76B44282E8 /* [CP] Embed Pods Frameworks */,
+				A4ABFC5CF159FDC18A8E2E72 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = convocatoriaCursos;
+			productName = convocatoriaCursos;
+			productReference = 84F0EE95206BDC3F0060589D /* convocatoriaCursos.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84F0EEA8206BDC3F0060589D /* convocatoriaCursosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84F0EEC0206BDC3F0060589D /* Build configuration list for PBXNativeTarget "convocatoriaCursosTests" */;
+			buildPhases = (
+				A056AE187965B7D9101C3B8F /* [CP] Check Pods Manifest.lock */,
+				84F0EEA5206BDC3F0060589D /* Sources */,
+				84F0EEA6206BDC3F0060589D /* Frameworks */,
+				84F0EEA7206BDC3F0060589D /* Resources */,
+				186F08379125BC89415C2F48 /* [CP] Embed Pods Frameworks */,
+				086D4C1744328EC9DD656F26 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84F0EEAB206BDC3F0060589D /* PBXTargetDependency */,
+			);
+			name = convocatoriaCursosTests;
+			productName = convocatoriaCursosTests;
+			productReference = 84F0EEA9206BDC3F0060589D /* convocatoriaCursosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		84F0EEB3206BDC3F0060589D /* convocatoriaCursosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84F0EEC3206BDC3F0060589D /* Build configuration list for PBXNativeTarget "convocatoriaCursosUITests" */;
+			buildPhases = (
+				163475AA9F45E99545B7EF19 /* [CP] Check Pods Manifest.lock */,
+				84F0EEB0206BDC3F0060589D /* Sources */,
+				84F0EEB1206BDC3F0060589D /* Frameworks */,
+				84F0EEB2206BDC3F0060589D /* Resources */,
+				C029B8AB3515920BC85B6E50 /* [CP] Embed Pods Frameworks */,
+				C3CA1B4AE214BD3CD2D63CF7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84F0EEB6206BDC3F0060589D /* PBXTargetDependency */,
+			);
+			name = convocatoriaCursosUITests;
+			productName = convocatoriaCursosUITests;
+			productReference = 84F0EEB4206BDC3F0060589D /* convocatoriaCursosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84F0EE8D206BDC3F0060589D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Ivo Sam";
+				TargetAttributes = {
+					84F0EE94206BDC3F0060589D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					84F0EEA8206BDC3F0060589D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 84F0EE94206BDC3F0060589D;
+					};
+					84F0EEB3206BDC3F0060589D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 84F0EE94206BDC3F0060589D;
+					};
+				};
+			};
+			buildConfigurationList = 84F0EE90206BDC3F0060589D /* Build configuration list for PBXProject "convocatoriaCursos" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84F0EE8C206BDC3F0060589D;
+			productRefGroup = 84F0EE96206BDC3F0060589D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84F0EE94206BDC3F0060589D /* convocatoriaCursos */,
+				84F0EEA8206BDC3F0060589D /* convocatoriaCursosTests */,
+				84F0EEB3206BDC3F0060589D /* convocatoriaCursosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84F0EE93206BDC3F0060589D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84F0EEA3206BDC3F0060589D /* LaunchScreen.storyboard in Resources */,
+				84F0EEC7206BDC810060589D /* GoogleService-Info.plist in Resources */,
+				84F0EEA0206BDC3F0060589D /* Assets.xcassets in Resources */,
+				84F0EE9E206BDC3F0060589D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84F0EEA7206BDC3F0060589D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84F0EEB2206BDC3F0060589D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		086D4C1744328EC9DD656F26 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-convocatoriaCursosTests/Pods-convocatoriaCursosTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		163475AA9F45E99545B7EF19 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-convocatoriaCursosUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		186F08379125BC89415C2F48 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-convocatoriaCursosTests/Pods-convocatoriaCursosTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A056AE187965B7D9101C3B8F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-convocatoriaCursosTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A4ABFC5CF159FDC18A8E2E72 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-convocatoriaCursos/Pods-convocatoriaCursos-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C029B8AB3515920BC85B6E50 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-convocatoriaCursosUITests/Pods-convocatoriaCursosUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3CA1B4AE214BD3CD2D63CF7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-convocatoriaCursosUITests/Pods-convocatoriaCursosUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC0628BC9980B061D0070455 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-convocatoriaCursos-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FDEB8429BC611A76B44282E8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-convocatoriaCursos/Pods-convocatoriaCursos-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-convocatoriaCursos/Pods-convocatoriaCursos-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84F0EE91206BDC3F0060589D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84B75297206C0AC500C44CFA /* ConvocatoriaCursoModel.swift in Sources */,
+				84F0EE9B206BDC3F0060589D /* ViewController.swift in Sources */,
+				84F0EE99206BDC3F0060589D /* AppDelegate.swift in Sources */,
+				84B75295206C094100C44CFA /* ViewControllerTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84F0EEA5206BDC3F0060589D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84F0EEAE206BDC3F0060589D /* convocatoriaCursosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84F0EEB0206BDC3F0060589D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84F0EEB9206BDC3F0060589D /* convocatoriaCursosUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84F0EEAB206BDC3F0060589D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84F0EE94206BDC3F0060589D /* convocatoriaCursos */;
+			targetProxy = 84F0EEAA206BDC3F0060589D /* PBXContainerItemProxy */;
+		};
+		84F0EEB6206BDC3F0060589D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84F0EE94206BDC3F0060589D /* convocatoriaCursos */;
+			targetProxy = 84F0EEB5206BDC3F0060589D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84F0EE9C206BDC3F0060589D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84F0EE9D206BDC3F0060589D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84F0EEA1206BDC3F0060589D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84F0EEA2206BDC3F0060589D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84F0EEBB206BDC3F0060589D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84F0EEBC206BDC3F0060589D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84F0EEBE206BDC3F0060589D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDBCBA5F6D54A49B5C10667B /* Pods-convocatoriaCursos.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C5AB8744F9;
+				INFOPLIST_FILE = convocatoriaCursos/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = conexionIE.convocatoriaCursos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84F0EEBF206BDC3F0060589D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F96BB96A1CB8A28323720A48 /* Pods-convocatoriaCursos.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C5AB8744F9;
+				INFOPLIST_FILE = convocatoriaCursos/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = conexionIE.convocatoriaCursos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		84F0EEC1206BDC3F0060589D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91C83A27B62244A0CD262E8E /* Pods-convocatoriaCursosTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C5AB8744F9;
+				INFOPLIST_FILE = convocatoriaCursosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = conexionIE.convocatoriaCursosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/convocatoriaCursos.app/convocatoriaCursos";
+			};
+			name = Debug;
+		};
+		84F0EEC2206BDC3F0060589D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 838D437FB84DCC3A1D6FA194 /* Pods-convocatoriaCursosTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C5AB8744F9;
+				INFOPLIST_FILE = convocatoriaCursosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = conexionIE.convocatoriaCursosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/convocatoriaCursos.app/convocatoriaCursos";
+			};
+			name = Release;
+		};
+		84F0EEC4206BDC3F0060589D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B553D416EACC7EBF93596EB /* Pods-convocatoriaCursosUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C5AB8744F9;
+				INFOPLIST_FILE = convocatoriaCursosUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = conexionIE.convocatoriaCursosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = convocatoriaCursos;
+			};
+			name = Debug;
+		};
+		84F0EEC5206BDC3F0060589D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC3E6FCA9BDF4129D9FF0625 /* Pods-convocatoriaCursosUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C5AB8744F9;
+				INFOPLIST_FILE = convocatoriaCursosUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = conexionIE.convocatoriaCursosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = convocatoriaCursos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84F0EE90206BDC3F0060589D /* Build configuration list for PBXProject "convocatoriaCursos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84F0EEBB206BDC3F0060589D /* Debug */,
+				84F0EEBC206BDC3F0060589D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84F0EEBD206BDC3F0060589D /* Build configuration list for PBXNativeTarget "convocatoriaCursos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84F0EEBE206BDC3F0060589D /* Debug */,
+				84F0EEBF206BDC3F0060589D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84F0EEC0206BDC3F0060589D /* Build configuration list for PBXNativeTarget "convocatoriaCursosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84F0EEC1206BDC3F0060589D /* Debug */,
+				84F0EEC2206BDC3F0060589D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84F0EEC3206BDC3F0060589D /* Build configuration list for PBXNativeTarget "convocatoriaCursosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84F0EEC4206BDC3F0060589D /* Debug */,
+				84F0EEC5206BDC3F0060589D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84F0EE8D206BDC3F0060589D /* Project object */;
+}
