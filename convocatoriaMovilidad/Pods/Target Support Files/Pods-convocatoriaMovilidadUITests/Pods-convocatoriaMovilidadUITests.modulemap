@@ -1,0 +1,6 @@
+framework module Pods_convocatoriaMovilidadUITests {
+  umbrella header "Pods-convocatoriaMovilidadUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
